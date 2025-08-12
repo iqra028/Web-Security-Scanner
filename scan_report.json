@@ -1,0 +1,76 @@
+{
+  "scan_metadata": {
+    "timestamp": "2025-08-12 17:15:03",
+    "target_url": "http://127.0.0.1",
+    "pages_scanned": 1,
+    "scanner_version": "2.0"
+  },
+  "vulnerabilities": {
+    "high_risk": {
+      "xss": [],
+      "sql_injection": [],
+      "directory_traversal": []
+    },
+    "medium_risk": {
+      "missing_headers": [
+        {
+          "header": "Strict-Transport-Security",
+          "risk": "High",
+          "issue": "Missing"
+        },
+        {
+          "header": "Content-Security-Policy",
+          "risk": "High",
+          "issue": "Missing"
+        },
+        {
+          "header": "X-Frame-Options",
+          "risk": "Medium",
+          "issue": "Missing"
+        },
+        {
+          "header": "X-Content-Type-Options",
+          "risk": "Medium",
+          "issue": "Missing"
+        },
+        {
+          "header": "Referrer-Policy",
+          "risk": "Medium",
+          "issue": "Missing"
+        },
+        {
+          "header": "X-XSS-Protection",
+          "risk": "Medium",
+          "issue": "Missing"
+        },
+        {
+          "header": "Permissions-Policy",
+          "risk": "Medium",
+          "issue": "Missing"
+        },
+        {
+          "header": "Cross-Origin-Embedder-Policy",
+          "risk": "Medium",
+          "issue": "Missing"
+        }
+      ],
+      "weak_headers": [],
+      "insecure_cookies": [],
+      "parameter_pollution": []
+    }
+  },
+  "information_disclosure": {
+    "accessible_paths": [],
+    "forms": [],
+    "software_stack": {
+      "server": "Apache/2.4.63 (Debian)",
+      "powered_by": "Unknown",
+      "framework": [
+        "Server: Apache/2.4.63 (Debian)"
+      ]
+    }
+  },
+  "security_measures": {
+    "csrf_tokens": []
+  }
+}
